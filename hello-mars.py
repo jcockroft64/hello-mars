@@ -4,7 +4,9 @@ planets = {
             1: 'mercury',
             2: 'venus',
             3: 'earth',
-            4: 'mars'
+            4: 'mars',
+            5: 'jupiter',
             }
 
-print(planets.get(4))
+for planet in planets:
+    print(planets.get(planet))
